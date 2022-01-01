@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+body {
+     font-family: 'JetBrains Mono', monospace;
+}
+
+li {
+     display: inline;
+     padding: 35px;
+}
+
+.blender {
+     color: rgb(255, 255, 255);
+}
+
+.blender:hover {
+     color: rgba(255, 255, 255, 0.856);
+}
+
+li a {
+     text-decoration: none;
+     color: rgb(24, 24, 24);
+     font-weight: 600;
+     position: inherit;
+     
+}
+
+li a:hover {
+     color: #a98364;
+     text-decoration: underline;
+}
+
+
+table {
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.secondtbl {
+     margin-left: auto;
+     margin-right: 50px;
+     transform: translate(-90%, -80%);
+     
+}
+
+.icons:hover {
+     background-color: rgba(230, 228, 228, 0.568);
+     
+}
+
+header {
+     background-color: rgba(230, 228, 228, 0.568);
+}
+
+.bests {
+     text-align: center;
+     background-color: #a98364;
+     border: #a98364 solid 5px;
+     color: rgb(255, 255, 255);
+     margin:0px;
+}
+
+img.bg1 {
+     max-width: 100%;
+     height: auto;
+   }
+
+.bg {
+     position: relative;
+     text-align: center;
+     color: white; 
+}
+
+.text {
+     position: absolute;
+     top: 35%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 150px;
+     font-family: 'Bebas Neue';
+     text-shadow: 4px 2px #0000008c;
+   }
+
+.text2 {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 100px;
+     font-family: 'Bebas Neue';
+     text-shadow: 4px 2px #0000008c;
+   }
+
+.slogan {
+     font-size: 20px;
+     text-align: center;
+     border: solid #fff 50px;
+}
+
+.btn1 {
+     position: absolute;
+     top: 70%;
+     left: 45%;
+     transform: translate(-50%, -50%);
+     font-size: 100px;
+     font-family: 'Bebas Neue';
+     text-shadow: 4px 2px #0000008c;
+   }
+
+.btn2 {
+     position: absolute;
+     top: 70%;
+     left: 55%;
+     transform: translate(-50%, -50%);
+     font-size: 100px;
+     font-family: 'Bebas Neue';
+     text-shadow: 4px 2px #0000008c;
+   }
+
+.btn1s, .btn2s {
+     background-color: #a98364a6;
+     border: none;
+     border-radius: 50px;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     display: inline-block;
+     font-size: 14px;
+     margin: 4px 2px;
+     cursor: pointer;
+     box-shadow: 2px 3px #0000004f;
+     font-family: 'JetBrains Mono', monospace;
+}
+
+.btn1s:hover, .btn2s:hover {
+     background-color: #a98364;
+}
+
+.twopics {
+     text-align: center;
+     margin: auto;
+}
+
+.text3 {
+     position: absolute;
+     color: rgb(255, 255, 255);
+     top: 150%;
+     left: 27%;
+     transform: translate(-50%, -50%);
+     font-size: 80px;
+     font-family: 'Bebas Neue';
+     text-shadow: 4px 2px #0000009f;
+   }
+
+.text4 {
+     position: absolute;
+     color: rgb(255, 255, 255);
+     top: 150%;
+     left: 73%;
+     transform: translate(-50%, -50%);
+     font-size: 80px;
+     font-family: 'Bebas Neue';
+     text-shadow: 4px 2px #0000009f;
+   }
+
+.links {
+     color: rgba(255, 255, 255, 0.918);
+     text-decoration: none;
+}
+
+.links:hover {
+     color: #000000;
+     text-shadow: 4px 2px #ffffffce;
+}
+
+h2 {
+     text-align: center;
+     font-size: 55px;
+     font-family: 'Bebas Neue';
+}
+
+.btnproducts {
+     margin-left: 46.3%;
+     font-family: 'JetBrains Mono', monospace;
+     background-color: #ffffffa6;
+     border: solid 1px #00000080;
+     border-radius: 50px;
+     color: rgb(0, 0, 0);
+     padding: 13px 32px;
+     display: inline-block;
+     font-size: 16px;
+     cursor: pointer;
+
+}
+
+.btnproducts:hover {
+     box-shadow: 1px 2px #0000005d;
+     background-color: #dddddd0e;
+
+}
